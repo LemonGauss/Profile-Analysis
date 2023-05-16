@@ -1,5 +1,3 @@
-package com.cmss.chinamobile;
-
 import com.alibaba.fastjson.JSONObject;
 import com.chinamobile.cmss.sdk.ocr.ECloudDefaultClient;
 import com.chinamobile.cmss.sdk.ocr.http.constant.Region;
@@ -11,11 +9,9 @@ import com.chinamobile.cmss.sdk.ocr.util.ImageUtil;
 import java.io.File;
 import java.util.HashMap;
 
-/**
- * @author CMSS
- */
-public class OCRDemo {
 
+public class OCRDemo {
+  //填写自己的sk 和 ak
 
     public static String user_ak;
     private static String user_sk;
@@ -32,6 +28,7 @@ public class OCRDemo {
 
 
     public static void main(String[] args) {
+        //用哪个去掉注释
         // 表格识别
 //        testForm();
 //        //通用文档识别
