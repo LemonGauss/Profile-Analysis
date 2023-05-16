@@ -1,4 +1,4 @@
-import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson2.JSONObject;
 import com.chinamobile.cmss.sdk.ocr.ECloudDefaultClient;
 import com.chinamobile.cmss.sdk.ocr.http.constant.Region;
 import com.chinamobile.cmss.sdk.ocr.http.signature.Credential;
